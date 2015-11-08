@@ -1,0 +1,107 @@
+/* As hex codes */
+/* Main Primary color */
+/* As RGBa codes */
+/* Main Primary color */
+body {
+  background-color: #ffffff;
+  background-image: url('../background.png');
+  color: #333333;
+  font-family: verdana;
+}
+h1 {
+  color: #aa3939;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.header,
+h1,
+a,
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 0px;
+  margin-top: 0px;
+  color: #777;
+}
+h1 {
+  font-size: 2.3rem;
+}
+a {
+  font-size: 1em;
+  text-transform: none;
+}
+h2 {
+  font-size: 2rem;
+}
+/* Prevent the text contents of draggable elements from being selectable. */
+.sorting {
+  text-align: center;
+}
+.btn-block {
+  font-size: 1.2rem;
+}
+#sortAsc,
+#sortDesc {
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 10px;
+}
+#sortAsc:hover,
+#sortDesc:hover {
+  text-decoration: underline;
+}
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
+.container-fluid {
+  margin-top: 20px;
+}
+.newcard {
+  color: #999;
+  font-size: 1.6em;
+}
+#container-add {
+  position: absolute;
+  right: 100px;
+  display: none;
+  background-color: #fff;
+  top: 0px;
+  padding: 20px;
+  box-shadow: 0px 5px 10px;
+  height: 0px;
+  overflow: hidden;
+}
+#container-top {
+  border-bottom: 2px rgba(204, 204, 204, 0.47) solid;
+}
+.card {
+  list-style-type: none;
+  float: left;
+  height: 210px;
+  background-color: #550000;
+  margin: 25px;
+  overflow: hidden;
+  color: #ffaaaa;
+  box-shadow: 0px 5px 20px 0px #333;
+  cursor: move;
+}
+.card img {
+  float: left;
+  width: 75px;
+  height: 75px;
+  margin: 15px;
+}
+.card.over {
+  border: 2px dashed #000;
+}

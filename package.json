@@ -1,0 +1,26 @@
+{
+  "name": "techproject",
+  "version": "1.0.0",
+  "description": "tech project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ryan conley",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "connect-livereload": "^0.5.3",
+    "grunt": "^0.4.5",
+    "grunt-contrib-connect": "^0.11.2",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-open": "^0.2.3",
+    "grunt-postcss": "^0.7.0",
+    "grunt-wiredep": "^2.0.0",
+    "load-grunt-tasks": "^3.3.0",
+    "matchdep": "^1.0.0"
+  }
+}
